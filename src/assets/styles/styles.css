@@ -1,0 +1,124 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
+.product input,
+.product textarea {
+  width: 400px;
+  height: 40px;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 30px;
+  border: solid thin gray;
+}
+h1 {
+  font-size: 3em;
+  font-weight: bolder;
+}
+.inputText {
+    font-weight: bold;
+    font-size: 1.05em;
+  }
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+.navbar {
+  background-color: rgb(37, 37, 37);
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.brand {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.cart-box p {
+  margin: 0;
+}
+.cart-box {
+  background-color: white;
+  border-radius: 15px;
+  color: black;
+  padding: 10px;
+  display: flex;
+}
+
+.cart-box span {
+  background-color: rgb(37, 37, 37);
+  color: white;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  padding: 15px;
+  display: inline-block;
+  margin: 15px;
+  border-radius: 5px;
+}
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  align-items: center;
+  padding: 10px;
+}
+img {
+  width: 100%;
+  max-height: 100%;
+}
+.price {
+  font-size: 18px;
+  font-weight: 500;
+}
+.card-actions {
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  padding: 15px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.add-to-cart, .add-product {
+  width: 170px;
+}
+.wishlist-btn,
+.add-to-cart:hover {
+  border: 1px solid rgb(37, 37, 37);
+  background-color: white;
+  color: rgb(37, 37, 37);
+}
+.wishlist-btn:hover {
+  border: 1px solid rgb(37, 37, 37);
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+.item-wish-listed {
+  background-color: rgb(238, 59, 59);
+  color: white;
+  border-color: rgb(238, 59, 59);
+}

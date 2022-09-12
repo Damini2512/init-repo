@@ -1,0 +1,15 @@
+<template>
+  <Hello-world></Hello-world>
+</template>
+
+<script>
+import HelloWorld from "./components/HelloWorld.vue";
+export default {
+  name: "App",
+  components: { HelloWorld },
+};
+</script>
+
+<style>
+@import "./assets/styles/styles.css";
+</style>
